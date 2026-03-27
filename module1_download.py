@@ -147,7 +147,7 @@ def main():
     
     meta_data = []
     
-    max_workers = 16
+    max_workers = 12
     print(f"Starting download with max_workers={max_workers} (ProcessPool) to massively accelerate process...")
     
     # ProcessPoolExecutor 必须在 __main__ 块内，且每个 worker 内部自己管理 session

@@ -3,7 +3,7 @@ plots/
 results/
 __pycache__/
 .trae/
-run_full.log
-A_list.csv
-stock_meta.csv
 venv/
+*.log
+*.csv
+*.md
